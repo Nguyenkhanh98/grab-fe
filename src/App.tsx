@@ -17,7 +17,7 @@ const center = {
 function App() {
   const { isLoaded } = useJsApiLoader({
     id: '',
-    googleMapsApiKey: "AIzaSyCkWlGDvftO896OXUQN_g485-a39PET8e8"
+    googleMapsApiKey: ""
   })
 
   const schedule = async({
